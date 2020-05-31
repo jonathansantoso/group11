@@ -1,0 +1,25 @@
+/*for TABLET*/
+@media all and (max-width: 1000px) {
+.footer-top-right a {
+    margin-right: 50px;
+}
+
+
+}
+
+/*for SMARTPHONE*/
+@media all and (max-width: 670px) {
+.footer-top img {
+    margin-left: 0px;
+}
+.footer-top-right a {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+}

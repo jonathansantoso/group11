@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .main {
@@ -31,11 +32,11 @@ body {
 .header-right a:hover {
     color: black;
 }
-img {
-    width: 22%;
-    height: 20%;
-    margin-top: 15px;
-    margin-left: 40px;
+.header-left img {
+    width: 100px;
+    height: 50px;
+    margin: 21px 0 0 40px;
+    position: fixed;
 }
 .header-right span {
     padding: 10px 30px;
@@ -53,9 +54,10 @@ img {
     margin: 35px 0;
 }
 .footer-top img {
-    width: 15%;
-    height: 15%;
+    width: 100px;
+    height: 50px;
     margin-left: 100px;
+    margin-top: 25px;
 }
 .footer {
     margin: 0 40px;
@@ -82,18 +84,20 @@ img {
     text-decoration: none;
     display: block;
 }
-
 .footer-bottom {
     border-top: 1px solid black;
 }
 .four{
     float: left;
 }
-.four input{
-    width: 200px;
+.four input {
+    width: 220px;
     height: 30px;
     margin-bottom: 15px;
     margin-top: 15px;
 }
-
+.four textarea {
+    width: 220px;
+    height: 50px;
+}
 
