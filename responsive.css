@@ -1,25 +1,146 @@
-/*for TABLET*/
+/* For Tablets */
 @media all and (max-width: 1000px) {
-.footer-top-right a {
-    margin-right: 50px;
+  .lesson-team {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .column-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .column-wrapper div {
+    flex: auto;
+    width: 50%;
+  }
+
+  .right-wrapper img {
+    width: 200px;
+    display: block;
+    margin: 100px auto;
+  }
+
+  .left-wrapper h2 {
+    margin-top: 10px;
+  }
+
+  .workflow-item {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .footer-right {
+    padding-left: 20%;
+  }
+
+  .footer-top div {
+    width: 100%;
+  }
+
+  .footer-left img {
+    display: block;
+    margin: 50px auto;
+  }
+
+  .footer-right {
+    margin: auto;
+  }
+
+  .footer-bottom div {
+    padding-bottom: 50px;
+  }
+
+  .end {
+    width: 50%;
+  }
+
 }
 
-
-}
-
-/*for SMARTPHONE*/
+/* For Smartphones */
 @media all and (max-width: 670px) {
-.footer-top img {
-    margin-left: 0px;
-}
-.footer-top-right a {
-    margin-right: 5px;
-}
+  .lesson-team {
+    width: 100%;
+  }
 
+  .header-right {
+    display: none;
+  }
 
+  .menu-icon {
+    display: block;
+  }
 
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
 
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
 
+  .column-wrapper div {
+    flex-direction: column;
+    width: 100%;
+  }
 
+  .right-wrapper {
+    width: 100%;
+    display: block;
+  }
 
+  .right-wrapper img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .workflow-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .workflow h2 {
+    font-size: 18px;
+  }
+
+  .workflow-item img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .footer-top div {
+    width: 100%;
+  }
+
+  .footer-right {
+    padding-left: 15%;
+  }
+
+  .footer-right a {
+    width: 50%;
+  }
+
+  .footer-left img {
+    display: block;
+    margin: 50px auto;
+  }
+
+  .footer-bottom div {
+    padding-bottom: 50px;
+  }
+
+  .end {
+    width: 100%;
+  }
 }
