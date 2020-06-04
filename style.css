@@ -312,6 +312,11 @@ header {
   color: #000000;
 }
 
+.vision {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .btn-wrapper {
   text-align: center;
   margin: 20px 0;
@@ -332,7 +337,8 @@ header {
 .btn:hover {
   opacity: 1;
 }
-.hire-wrapper {
+.hire {
+  padding-top: 80px;
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
