@@ -155,14 +155,23 @@ header {
 
 .team-icon p {
   position: absolute;
-  top: 44%;
+  top: 95%;
   width: 100%;
   color: white;
+  opacity: 0;
+}
+
+.team-icon:hover p{
+  opacity: 1;
 }
 
 .team-icon img {
-  height: 200px;
+  height: 180px;
   border-radius: 50%;
+}
+
+.team-icon img:hover{
+    height: 200px;
 }
 
 .text-contents {
@@ -390,3 +399,4 @@ header {
       transform: translateX(-100%);
   }
 }
+
