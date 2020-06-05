@@ -24,13 +24,9 @@
   }
 
   .right-wrapper img {
-    width: 400px;
+    width: 200px;
     display: block;
     margin: 100px auto;
-  }
-
-  .left-wrapper img{
-        width: 400px;
   }
 
   .left-wrapper h2 {
@@ -104,10 +100,9 @@
   }
 
   .right-wrapper img {
-    width: 300px;
+    width: 200px;
     display: block;
     margin: 0 auto;
-    padding-top: 25px;
   }
 
   .workflow-item {
