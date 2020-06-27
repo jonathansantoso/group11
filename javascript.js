@@ -4,11 +4,9 @@ chk.addEventListener('change', () => {
 	document.body.classList.toggle('dark');
 });
 
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
+const menuToggle = document.querySelector('.menu-icon input');
+const nav = document.querySelector('.header-right a');
+
+menuToggle.addEventListener('click', () => {
+  nav.classList.toggle('slide');
+});
